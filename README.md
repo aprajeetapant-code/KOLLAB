@@ -1,16 +1,74 @@
-# React + Vite
+# KOLLAB
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Find your people. Create together.
 
-Currently, two official plugins are available:
+KOLLAB is an AI-powered creator collaboration platform designed to help creators, students, developers, designers and emerging talent find the right people for their projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Problem
 
-## React Compiler
+Creators often have ideas but struggle to find people with the right skills to build them with.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Existing platforms mainly focus on social networking, content sharing or hiring. They do not focus on understanding **what someone wants to build** and finding collaborators around that project.
 
-## Expanding the Oxlint configuration
+## Solution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+KOLLAB allows users to describe their project idea and discover available collaborators whose skills match the project requirements.
+
+The platform provides:
+
+- Creator profiles
+- Skill-based collaborator discovery
+- Project matching
+- Match explanations
+- Collaboration connections
+- Project workspace
+- Collaboration rooms
+
+## How KOLLAB Works
+
+1. **Create a Creator Profile**
+   - Add your name, role and skills.
+
+2. **Describe Your Project**
+   - Tell KOLLAB what you want to build.
+
+3. **Find Collaborators**
+   - KOLLAB compares the project description with available creator profiles.
+
+4. **Connect**
+   - Choose a suitable collaborator and create a collaboration room.
+
+5. **Collaborate**
+   - The collaboration room provides a dedicated space for working together on the project.
+
+## Key Features
+
+### Creator Profiles
+Users can create profiles containing their role and skills.
+
+### Project Matching
+KOLLAB analyzes the project description and compares it with available collaborator skills.
+
+### Match Explanation
+The platform shows the skills that contributed to a match.
+
+### Collaboration Room
+Connected creators can enter a dedicated project collaboration space.
+
+### My Projects
+Users can create and keep track of their projects.
+
+## Technology Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Browser Local Storage
+
+## Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aprajeetapant-code/KOLLAB.git
